@@ -1,0 +1,14 @@
+# Core (the pipeline runs with just these three)
+pandas>=2.1
+numpy>=1.26
+matplotlib>=3.8
+
+# Optional but recommended — enables sklearn LogisticRegression + gradient boosting
+scikit-learn>=1.4
+
+# Notebooks
+jupyter>=1.0
+seaborn>=0.13
+
+# Tests
+pytest>=8.0

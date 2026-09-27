@@ -1,0 +1,83 @@
+{
+  "customer": {
+    "feature_set": "customer",
+    "engine": "numpy.NewtonRaphsonLogit",
+    "n_train": 5282,
+    "n_test": 1761,
+    "n_features": 32,
+    "base_churn_rate_test": 0.2629,
+    "roc_auc_test": 0.8803,
+    "at_0_50": {
+      "threshold": 0.5,
+      "accuracy": 0.8245,
+      "precision": 0.6935,
+      "recall": 0.5961,
+      "f1": 0.6411,
+      "log_loss": 0.3738,
+      "brier": 0.1216,
+      "confusion": {
+        "tp": 276,
+        "fp": 122,
+        "fn": 187,
+        "tn": 1176
+      }
+    },
+    "best_f1_threshold": 0.26,
+    "at_best_f1": {
+      "threshold": 0.26,
+      "accuracy": 0.7927,
+      "precision": 0.5725,
+      "recall": 0.8359,
+      "f1": 0.6795,
+      "log_loss": 0.3738,
+      "brier": 0.1216,
+      "confusion": {
+        "tp": 387,
+        "fp": 289,
+        "fn": 76,
+        "tn": 1009
+      }
+    }
+  },
+  "customer_network": {
+    "feature_set": "customer_network",
+    "engine": "numpy.NewtonRaphsonLogit",
+    "n_train": 5282,
+    "n_test": 1761,
+    "n_features": 41,
+    "base_churn_rate_test": 0.2629,
+    "roc_auc_test": 0.9823,
+    "at_0_50": {
+      "threshold": 0.5,
+      "accuracy": 0.9324,
+      "precision": 0.8909,
+      "recall": 0.8467,
+      "f1": 0.8682,
+      "log_loss": 0.147,
+      "brier": 0.0454,
+      "confusion": {
+        "tp": 392,
+        "fp": 48,
+        "fn": 71,
+        "tn": 1250
+      }
+    },
+    "best_f1_threshold": 0.36,
+    "at_best_f1": {
+      "threshold": 0.36,
+      "accuracy": 0.9347,
+      "precision": 0.8595,
+      "recall": 0.8985,
+      "f1": 0.8786,
+      "log_loss": 0.147,
+      "brier": 0.0454,
+      "confusion": {
+        "tp": 416,
+        "fp": 68,
+        "fn": 47,
+        "tn": 1230
+      }
+    }
+  },
+  "_note": "'customer' uses real IBM columns only. 'customer_network' adds SYNTHETIC telemetry generated with a churn signal built in \u2014 illustrative, not evidence."
+}

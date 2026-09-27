@@ -1,0 +1,13 @@
+internet_service,payment_method,customers,churned,churn_rate_pct,share_of_base_pct,churn_rank
+Fiber optic,Electronic check,1028,589,57.3,14.6,1
+Fiber optic,Mailed check,690,253,36.7,9.8,2
+DSL,Electronic check,799,272,34.0,11.3,3
+Fiber optic,Credit card (automatic),661,182,27.5,9.4,4
+Fiber optic,Bank transfer (automatic),679,176,25.9,9.6,5
+No,Electronic check,501,90,18.0,7.1,6
+DSL,Mailed check,584,84,14.4,8.3,7
+DSL,Bank transfer (automatic),515,66,12.8,7.3,8
+DSL,Credit card (automatic),542,63,11.6,7.7,9
+No,Mailed check,379,33,8.7,5.4,10
+No,Credit card (automatic),321,22,6.9,4.6,11
+No,Bank transfer (automatic),344,22,6.4,4.9,12

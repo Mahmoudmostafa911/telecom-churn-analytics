@@ -1,0 +1,5 @@
+network_quality_band,customers,churned,churn_rate_pct,avg_quality_score,avg_dropped_call_pct,avg_latency_ms,avg_outage_minutes,avg_complaints
+Poor,386,270,69.9,48.6,1.63,55.1,241.0,1.47
+Fair,1901,890,46.8,64.2,1.06,38.3,175.0,0.92
+Good,2995,591,19.7,76.2,0.75,27.2,124.0,0.46
+Excellent,1761,101,5.7,87.3,0.6,20.2,63.0,0.07

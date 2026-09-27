@@ -1,0 +1,42 @@
+feature,coefficient,odds_ratio,type,direction
+latency_trend_pct,2.7825,16.16,numeric (per 1 SD),increases churn
+network_quality_score,-2.0962,0.123,numeric (per 1 SD),reduces churn
+internet_service_Fiber_optic,2.061,7.854,one-hot vs baseline,increases churn
+contract_Two_year,-2.0192,0.133,one-hot vs baseline,reduces churn
+contract_One_year,-1.5676,0.209,one-hot vs baseline,reduces churn
+total_outage_minutes,-1.4933,0.225,numeric (per 1 SD),reduces churn
+l3m_complaints,1.0024,2.725,numeric (per 1 SD),increases churn
+senior_citizen_Yes,0.9783,2.66,one-hot vs baseline,increases churn
+network_complaints,-0.9074,0.404,numeric (per 1 SD),reduces churn
+avg_download_mbps,-0.8103,0.445,numeric (per 1 SD),reduces churn
+payment_method_Electronic_check,0.7804,2.182,one-hot vs baseline,increases churn
+total_charges,-0.6982,0.497,numeric (per 1 SD),reduces churn
+monthly_charges,0.6972,2.008,numeric (per 1 SD),increases churn
+multiple_lines_No_phone_service,0.6352,1.887,one-hot vs baseline,increases churn
+phone_service_Yes,-0.6352,0.53,one-hot vs baseline,reduces churn
+tenure_months,-0.6048,0.546,numeric (per 1 SD),reduces churn
+dropped_call_trend_pp,0.4454,1.561,numeric (per 1 SD),increases churn
+avg_dropped_call_pct,0.3897,1.477,numeric (per 1 SD),increases churn
+streaming_movies_Yes,-0.3319,0.718,one-hot vs baseline,reduces churn
+partner_Yes,-0.3103,0.733,one-hot vs baseline,reduces churn
+paperless_billing_Yes,0.309,1.362,one-hot vs baseline,increases churn
+num_addon_services,-0.2527,0.777,numeric (per 1 SD),reduces churn
+streaming_movies_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+tech_support_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+online_security_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+internet_service_No,0.1838,1.202,one-hot vs baseline,increases churn
+online_backup_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+streaming_tv_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+device_protection_No_internet_service,0.1838,1.202,one-hot vs baseline,increases churn
+tech_support_Yes,-0.1749,0.84,one-hot vs baseline,reduces churn
+gender_Male,0.1725,1.188,one-hot vs baseline,increases churn
+device_protection_Yes,0.155,1.168,one-hot vs baseline,increases churn
+payment_method_Mailed_check,0.1383,1.148,one-hot vs baseline,increases churn
+online_backup_Yes,0.1248,1.133,one-hot vs baseline,increases churn
+online_security_Yes,-0.1103,0.896,one-hot vs baseline,reduces churn
+charge_ratio,-0.0752,0.928,numeric (per 1 SD),reduces churn
+multiple_lines_Yes,-0.0599,0.942,one-hot vs baseline,reduces churn
+avg_latency_ms,0.0551,1.057,numeric (per 1 SD),increases churn
+streaming_tv_Yes,-0.0454,0.956,one-hot vs baseline,reduces churn
+payment_method_Credit_card_automatic,-0.0424,0.959,one-hot vs baseline,reduces churn
+dependents_Yes,-0.025,0.975,one-hot vs baseline,reduces churn

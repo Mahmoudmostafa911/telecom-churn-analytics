@@ -1,0 +1,10 @@
+analysis,segment,customers,churn_rate_pct,avg_monthly_charges
+By add-on count,0,176,35.2,57.09
+By add-on count,1,808,34.5,65.71
+By add-on count,2,1616,30.6,72.83
+By add-on count,3,1687,29.9,79.18
+By add-on count,4,891,30.8,86.27
+By add-on count,5,287,23.3,91.34
+By add-on count,6,33,15.2,92.91
+By tech support,No,3494,34.9,76.47
+By tech support,Yes,2004,23.3,76.53

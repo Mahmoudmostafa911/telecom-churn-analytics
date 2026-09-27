@@ -1,0 +1,54 @@
+{
+  "raw_file": "/mnt/workspace/working/repo/telecom-churn-analytics/data/raw/telco_synthetic_fixture.csv",
+  "kpi_file": "/mnt/workspace/working/repo/telecom-churn-analytics/data/raw/network_kpis_monthly.csv",
+  "steps": {
+    "clean": {
+      "elapsed_s": 0.29,
+      "rows": 7043,
+      "blanks_fixed": 11
+    },
+    "load_kpis": {
+      "elapsed_s": 0.51,
+      "rows": 70334
+    },
+    "features": {
+      "elapsed_s": 0.81,
+      "columns": 49
+    },
+    "quality_gate": {
+      "elapsed_s": 1.27,
+      "PASS": 43
+    },
+    "model": {
+      "elapsed_s": 1.82,
+      "customer": 0.8803,
+      "customer_network": 0.9823
+    },
+    "warehouse": {
+      "elapsed_s": 4.23,
+      "dim_customer": 7043,
+      "dim_contract": 24,
+      "dim_services": 379,
+      "fact_customer": 7043,
+      "dim_date": 12,
+      "fact_network_monthly": 70334
+    },
+    "analytics_sql": {
+      "elapsed_s": 5.48,
+      "queries": 8
+    },
+    "report": {
+      "elapsed_s": 15.78
+    }
+  },
+  "total_elapsed_s": 15.78,
+  "cleaning_report": {
+    "rows_in": 7043,
+    "rows_out": 7043,
+    "duplicates_removed": 0,
+    "total_charges_blank": 11,
+    "total_charges_imputed_zero": 11,
+    "total_charges_unparseable": 0,
+    "unknown_category_values": {}
+  }
+}

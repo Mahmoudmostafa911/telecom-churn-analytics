@@ -1,0 +1,10 @@
+risk_band,contract,customers,actual_churn_rate_pct,avg_predicted_probability,monthly_revenue,expected_monthly_revenue_at_risk
+High,Month-to-month,1562,70.6,0.704,130643.01,92695.51
+High,One year,15,60.0,0.587,1270.37,749.22
+High,Two year,1,0.0,0.518,82.03,42.52
+Medium,Month-to-month,1390,33.7,0.335,80565.37,27979.47
+Medium,One year,191,32.5,0.297,16882.18,5005.45
+Medium,Two year,17,23.5,0.262,1548.97,402.97
+Low,Month-to-month,879,12.6,0.124,34793.35,4381.47
+Low,One year,1264,5.1,0.056,77223.42,5149.27
+Low,Two year,1724,1.9,0.019,110928.21,2647.42
